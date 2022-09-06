@@ -1,0 +1,118 @@
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 15px;
+}
+li{
+    list-style: none;    
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+    color: #0B4654;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+.mobile-nav{
+    display: none;
+}
+
+.desctop-main{
+    display: flex;
+}
+.text1{
+    width: 490px;
+    height: 150px;
+    left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1C1E52;
+}
+span{
+    width: 550px;
+    height: 150px;
+    left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #07B464;
+}
+.text2{
+    width: 380px;
+    height: 76px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1E52;
+}
+.text3{
+    width: 350px;
+    height: 150px;
+    left: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #1C1E52;
+}
+.text4{
+    
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #34E06F 0%, #07B464 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 4px rgba(255, 255, 255, 0.25), inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.mobile-main{
+    display: none;   
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .desctop-nav{display: none;}
+    .desctop-main{display: none;}
+    .logo p {font-size: 24px;}
+    .mobile-nav{display: block;}
+    .mobile-main{display: block;}
+}
